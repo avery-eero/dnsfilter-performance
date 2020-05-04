@@ -1,0 +1,28 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/lieavery/dnsfilter-performance/src/main/scala/DNSFilterAPISimulation.scala:1:11: object gatling is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0mimport io.gatling.core.Predef._[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lieavery/dnsfilter-performance/src/main/scala/DNSFilterAPISimulation.scala:2:11: object gatling is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0mimport io.gatling.http.Predef._[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lieavery/dnsfilter-performance/src/main/scala/DNSFilterAPISimulation.scala:3:11: object gatling is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0mimport io.gatling.http.funspec.GatlingHttpFunSpec[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lieavery/dnsfilter-performance/src/main/scala/DNSFilterAPISimulation.scala:4:11: object gatling is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0mimport io.gatling.funspec.example.GatlingFunSpecExampleIT._[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lieavery/dnsfilter-performance/src/main/scala/DNSFilterAPISimulation.scala:9:33: value httpConf is not a member of AnyRef[0m
+[0m[[0m[31merror[0m] [0m[0m  override def httpConf = super.httpConf.header("MyHeader", "MyValue")[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lieavery/dnsfilter-performance/src/main/scala/DNSFilterAPISimulation.scala:11:3: not found: value spec[0m
+[0m[[0m[31merror[0m] [0m[0m  spec {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lieavery/dnsfilter-performance/src/main/scala/DNSFilterAPISimulation.scala:12:5: not found: value http[0m
+[0m[[0m[31merror[0m] [0m[0m    http("Example index.html test")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lieavery/dnsfilter-performance/src/main/scala/DNSFilterAPISimulation.scala:14:14: not found: value h1[0m
+[0m[[0m[31merror[0m] [0m[0m      .check(h1.exists)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lieavery/dnsfilter-performance/src/main/scala/DNSFilterAPISimulation.scala:21:12: not found: value css[0m
+[0m[[0m[31merror[0m] [0m[0m  def h1 = css("h1")[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m
