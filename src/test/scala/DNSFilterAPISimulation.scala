@@ -1,22 +1,18 @@
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
+import io.gatling.http.request.builder.HttpRequestBuilder
 import scala.concurrent.duration._
 
-class DNSFilterAPISimulation extends Simulation {
+object DNSFilterAPISimulation {
 
   val baseURL = "http://example.com"
-  override def httpConf = super.httpConf.header("MyHeader", "MyValue")
 
-  spec {
-    http("Example index.html test")
-      .get("/index.html")
-      .check(h1.exists)
-  }
-
-}
-
-object GatlingFunSpecExampleIT {
-
-  def h1 = css("h1")
+  def healthCheck(interval: FiniteDuration) = forever(
+    exec(
+      http("Health Check")
+        .get("/healthcheck")
+        .check(status.is(200))
+    ).pace(interval)
+  )
 
 }

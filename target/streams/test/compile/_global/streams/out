@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/lieavery/dnsfilter-performance/src/test/scala/DNSFilterAPISimulation.scala:8:33: value httpConf is not a member of io.gatling.core.Predef.Simulation[0m
+[0m[[0m[31merror[0m] [0m[0m  override def httpConf = super.httpConf.header("MyHeader", "MyValue")[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lieavery/dnsfilter-performance/src/test/scala/DNSFilterAPISimulation.scala:10:3: not found: value spec[0m
+[0m[[0m[31merror[0m] [0m[0m  spec {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lieavery/dnsfilter-performance/src/test/scala/DNSFilterAPISimulation.scala:13:14: not found: value h1[0m
+[0m[[0m[31merror[0m] [0m[0m      .check(h1.exists)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

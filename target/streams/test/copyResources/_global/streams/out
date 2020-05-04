@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/lieavery/dnsfilter-performance/src/test/resources/logback.xml,/Users/lieavery/dnsfilter-performance/target/scala-2.12/test-classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/lieavery/dnsfilter-performance/src/test/resources/gatling.conf,/Users/lieavery/dnsfilter-performance/target/scala-2.12/test-classes/gatling.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/lieavery/dnsfilter-performance/src/test/resources/recorder.conf,/Users/lieavery/dnsfilter-performance/target/scala-2.12/test-classes/recorder.conf)[0m
